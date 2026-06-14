@@ -1,5 +1,5 @@
 def print_num(num):
-    print(f"\033[1m{num}\033[0m", end='')
+    print(num, end='')
 
 n = 8
 print_num(n)
