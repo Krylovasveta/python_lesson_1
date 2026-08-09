@@ -6,7 +6,7 @@ class Db:
         self.con = con
         self.db_engine = None
 
-    def db_con(self, login="postgres", password="svetakv", b="QA"):
+    def db_con(self, login="postgres", password="мойпароль", b="моябазаданных"):
         db_con_st = f"postgresql://{login}:{password}@localhost:5432/{b}"
         self.db_engine = create_engine(db_con_st)
         return self.db_engine
