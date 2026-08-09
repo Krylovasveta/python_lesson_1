@@ -57,9 +57,3 @@ class Db:
         print(n)
 
 
-# if __name__ == "__main__":
-# db = Db()
-# p = db.sel_usr("hroberts@yahoo.com")
-# print(p)
-# db.edit_usr(1, "sveta1@mail.ru")
-# db.usr_lst()
