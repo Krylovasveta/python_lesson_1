@@ -1,0 +1,28 @@
+# Виртуальное окружение (обязательно!)
+venv/
+.venv/
+env/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*\$py.class
+
+# Кэш тестов
+.pytest_cache/
+
+# Отчеты Allure
+allure-result/
+
+# Секреты и конфиги
+.env
+conf.ini
+
+# IDE
+.vscode/
+*.code-workspace
+
+# Картинки для тестов (если они не нужны в репозитории)
+*.png
+*.jpg
+*.jpeg
